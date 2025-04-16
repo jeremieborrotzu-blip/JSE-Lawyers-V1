@@ -21,7 +21,7 @@ services:
 
   jse-avocats-wp:
     container_name: jse-avocats-wp
-    image: ghcr.io/oc-for-students/jse-avocats:2-0-0
+    image: ghcr.io/openclassrooms-student-center/jse-avocats:2-0-0
     ports:
       - 8081:80
     volumes:

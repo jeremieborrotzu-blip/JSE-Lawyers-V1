@@ -19,7 +19,7 @@ The most simple will be to install Docker Desktop
 # Installation and start
 After downloaded project or cloned it, you can start simply like this
 ``` 
-git clone https://github.com/OC-For-Students/JSE-Avocats-V2.git
+git clone https://github.com/OpenClassrooms-Student-Center/JSE-Avocats-V2.git
 cd JSE-Avocats-V2
 
 docker compose up -d
