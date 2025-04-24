@@ -13,7 +13,6 @@
 # Prérequis
 Pour démarrer cet applicatif web vous devez avoir les outils suivants:
 - Docker
-- NodeJs
 
 # Installation et démarrage
 Clonez le projet pour le récupérer
