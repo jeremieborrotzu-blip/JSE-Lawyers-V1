@@ -4,50 +4,48 @@
 </div>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Mysql-v8.0-blue">
-    <img src="https://img.shields.io/badge/Wordpress--blue">
+    <img src="https://img.shields.io/badge/MariaDB-v11.7.2-blue">
+    <img src="https://img.shields.io/badge/Wordpress-v6-blue">
     <img src="https://img.shields.io/badge/docker--build-passing-brightgreen">
   <br><br><br>
 </p>
 
-# Prerequisites
-You need Docker to launch the app
-You can find instruction on [Docker website install](https://docs.docker.com/engine/install/)
+# Prérequis
+Pour démarrer cet applicatif web vous devez avoir les outils suivants:
+- Docker
+- NodeJs
 
-The most simple will be to install Docker Desktop
-
-# Installation and start
-After downloaded project or cloned it, you can start simply like this
+# Installation et démarrage
+Clonez le projet pour le récupérer
 ``` 
 git clone https://github.com/OpenClassrooms-Student-Center/JSE-Avocats-V2.git
 cd JSE-Avocats-V2
-
+```
+Enfin pour le démarrer
+```
 docker compose up -d
 
 ```
 
 # Important
-After start command, be sure that all containers are started before go to website.
-You can check it with Docker Desktop dashboard, all containers must be to green status
+Cet applicatif est fait avec wordpress.
+Il ce peut que le démarrage final prenne quelques secondes après le démarrage des conteneurs
 
-## To close the project after work ;)
-Be sure to be in the project folder. Where the docker-compose.yml file is before the following command
+## Pour éteindre le projet
+Assurez vous d'être dans le dossier du projet
+(là où se trouve le fichier docker-compose.yml)
 
 ```
 docker compose down
 ```
 
-## At the end
-When you finish with this project don't forget to clean your system.
-All files use no needed space after.
-
-If you use docker for this only project you can clear all data by
+## Fin de travail
+Si vous ne revenez pas sur le projet, vous avez la possibilité de supprimer les fichiers et images Docker afin de récupérer la place
 
 ```
 docker system prune -a
+
+=> tapez Y puis Entrée
 ```
 
-For this only one project, you can delete it with Docker Desktop
-- Container
-- Image
-- Volume
+Cela supprime tout le projet
